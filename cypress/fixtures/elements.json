@@ -1,0 +1,18 @@
+{
+  "username" :"#txtUsername",
+  "password": "#txtPassword",
+  "loginbtn":"#btnLogin",
+  "verificationfailed":"#spanMessage",
+  "admin":"#menu_admin_viewAdminModule > b",
+  "addbtn":"#btnAdd",
+  "userrole":"#systemUser_userType",
+  "employeename":"#systemUser_employeeName_empName",
+  "addusername":"#systemUser_userName",
+  "status":"#systemUser_status",
+  "adduserpwd":"#systemUser_password",
+  "confirmpwd":"#systemUser_confirmPassword",
+  "successmsg":".message",
+  "incrtpwdmsg":":nth-child(7) > span.validation-error",
+  "savebtn":"#btnSave",
+  "cancelbtn":"#btnCancel"
+}

@@ -1,0 +1,15 @@
+{
+  "URL"      : "https://opensource-demo.orangehrmlive.com/",
+  "title"    : "OrangeHRM",
+  "username" : "Admin",
+  "password" : "admin123",
+  "invalidusername" : "user",
+  "invalidpassword" : "Admin123",
+  "verificationfailed" : "Invalid credentials",
+  "usermanagement":"Users",
+  "employeename":"Joe Root",
+  "addusername":"J_RoT",
+  "adduserpwd":"Cadfx@123",
+  "incrtpwd":"cadfx@3R",
+  "incrtpwdmsg":"Passwords do not match"
+}
