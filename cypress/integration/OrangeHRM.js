@@ -25,18 +25,6 @@ describe('AddUser Functionality', () => {
         AddUser.User
         AddUser.ClickAdd
     })
-    it('User with Admin role, status enabled, crt pwd and save', () => {
-        AddUser.AdminUserRoleWithEnabled
-    });
-    it('User with Admin role, status disabled, crt pwd and save', () => {
-        AddUser.AdminUserRoleWithDisabled
-    });
-    it('User with ESS role, status enabled, crt pwd and save', () => {
-        AddUser.ESSUserRole
-    });
-    it('User with ESS role, status disabled, crt pwd and save ', () => {
-        AddUser.ESSUserRoleWithDisabled
-    });
     it('User with Admin role, status enabled, incrt pwd and save', () => {
         AddUser.AdminEnabledInCrtConfirmPwd
     });
