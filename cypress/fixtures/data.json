@@ -8,7 +8,11 @@
   "verificationfailed" : "Invalid credentials",
   "usermanagement":"Users",
   "employeename":"Joe Root",
-  "addusername":"J_RoT",
+  "addusername1":"J_RoT",
+  "addusername2":"J_roT",
+  "addusername3":"J_rot",
+  "addusername4":"J_rOt",
+  "addusername5":"J_ROT",
   "adduserpwd":"Cadfx@123",
   "incrtpwd":"cadfx@3R",
   "incrtpwdmsg":"Passwords do not match"
