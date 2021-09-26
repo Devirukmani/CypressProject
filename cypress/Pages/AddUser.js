@@ -15,7 +15,7 @@ class AddUser{
     get AdminUserRoleWithEnabled(){
         cy.get(elements.userrole).select('Admin',{force:true})
         cy.get(elements.employeename).type(data.employeename)
-        cy.get(elements.addusername).type(data.addusername)
+        cy.get(elements.addusername1).type(data.addusername1)
         cy.get(elements.adduserpwd).type(data.adduserpwd)
         cy.get(elements.confirmpwd).type(data.adduserpwd)
         cy.get(elements.savebtn).click()
@@ -23,7 +23,7 @@ class AddUser{
     get AdminUserRoleWithDisabled(){
         cy.get(elements.userrole).select('Admin',{force:true})
         cy.get(elements.employeename).type(data.employeename)
-        cy.get(elements.addusername).type(data.addusername)
+        cy.get(elements.addusername2).type(data.addusername2)
         cy.get(elements.status).select('Disabled',{force: true})
         cy.get(elements.adduserpwd).type(data.adduserpwd)
         cy.get(elements.confirmpwd).type(data.adduserpwd)
@@ -31,14 +31,14 @@ class AddUser{
     }
     get ESSUserRole(){
         cy.get(elements.employeename).type(data.employeename)
-        cy.get(elements.addusername).type(data.addusername)
+        cy.get(elements.addusername3).type(data.addusername3)
         cy.get(elements.adduserpwd).type(data.adduserpwd)
         cy.get(elements.confirmpwd).type(data.adduserpwd)
         cy.get(elements.savebtn).click()
     }
     get ESSUserRoleWithDisabled(){
         cy.get(elements.employeename).type(data.employeename)
-        cy.get(elements.addusername).type(data.addusername)
+        cy.get(elements.addusername4).type(data.addusername4)
         cy.get(elements.status).select('Disabled',{force: true})
         cy.get(elements.adduserpwd).type(data.adduserpwd)
         cy.get(elements.confirmpwd).type(data.adduserpwd)
@@ -47,7 +47,7 @@ class AddUser{
     get AdminEnabledInCrtConfirmPwd(){
         cy.get(elements.userrole).select('Admin',{force:true})
         cy.get(elements.employeename).type(data.employeename)
-        cy.get(elements.addusername).type(data.addusername)
+        cy.get(elements.addusername5).type(data.addusername5)
         cy.get(elements.adduserpwd).type(data.adduserpwd)
         cy.get(elements.confirmpwd).type(data.incrtpwd)
         cy.get(elements.savebtn).click()
@@ -56,7 +56,7 @@ class AddUser{
     get AdminDisabledInCrtConfirmPwd(){
         cy.get(elements.userrole).select('Admin',{force:true})
         cy.get(elements.employeename).type(data.employeename)
-        cy.get(elements.addusername).type(data.addusername)
+        cy.get(elements.addusername5).type(data.addusername5)
         cy.get(elements.status).select('Disabled',{force: true})
         cy.get(elements.adduserpwd).type(data.adduserpwd)
         cy.get(elements.confirmpwd).type(data.incrtpwd)
@@ -65,7 +65,7 @@ class AddUser{
     }
     get ESSEnabledInCrtConfirmPwd(){
         cy.get(elements.employeename).type(data.employeename)
-        cy.get(elements.addusername).type(data.addusername)
+        cy.get(elements.addusername5).type(data.addusername5)
         cy.get(elements.adduserpwd).type(data.adduserpwd)
         cy.get(elements.confirmpwd).type(data.incrtpwd)
         cy.get(elements.savebtn).click()
@@ -73,7 +73,7 @@ class AddUser{
     }
     get ESSDisabledInCrtConfirmPwd(){
         cy.get(elements.employeename).type(data.employeename)
-        cy.get(elements.addusername).type(data.addusername)
+        cy.get(elements.addusername5).type(data.addusername5)
         cy.get(elements.status).select('Disabled',{force: true})
         cy.get(elements.adduserpwd).type(data.adduserpwd)
         cy.get(elements.confirmpwd).type(data.incrtpwd)
@@ -82,7 +82,7 @@ class AddUser{
     }
     get ClickCancel(){
         cy.get(elements.employeename).type(data.employeename)
-        cy.get(elements.addusername).type(data.addusername)
+        cy.get(elements.addusername5).type(data.addusername5)
         cy.get(elements.adduserpwd).type(data.adduserpwd)
         cy.get(elements.confirmpwd).type(data.adduserpwd)
         cy.get(elements.cancelbtn).click()
