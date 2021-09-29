@@ -3,17 +3,19 @@ import AddUser from '../Pages/AddUser'
 
 describe('Login Functionality', () => {
     beforeEach(() =>{
-        LoginPage.LaunchURL
-        LoginPage.VerifyTitle
+        LoginPage.launchURL();
+        LoginPage.title();
     })
     it('ValidUser & Password', () => {
-        LoginPage.ValidUsername
+        LoginPage.login(data.username, data.password)
     })
     it('InvalidUser & ValidPassword',() =>{
-        LoginPage.InvalidUsername
+        LoginPage.login(data.invalidusername, data.password)
+        LoginPage.errorMsg();
     })
     it('ValidUser & InvalidPassword',() =>{
-        LoginPage.InvalidPassword
+        LoginPage.login(data.username, data.invalidpassword)
+        LoginPage.errorMsg();
     })
 });
 
